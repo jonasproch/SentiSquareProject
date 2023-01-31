@@ -1,0 +1,29 @@
+.file-upload {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border: 1px dashed #bbb;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.file-upload input {
+  opacity:  0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.primary-button {
+  margin-left: 1rem;
+}

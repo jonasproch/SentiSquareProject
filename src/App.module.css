@@ -1,0 +1,24 @@
+.main {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.chart-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.chart {
+  flex: 1;
+}
+
+.list-group {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.spinner {
+  margin-top: 1rem;
+}

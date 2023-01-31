@@ -1,0 +1,18 @@
+.outer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.inner {
+  position: absolute;
+  z-index: 100;
+  width: 300px;
+  background-color: white;
+  padding: 0.5rem;
+  display: none;
+}
+
+.outer:hover .inner {
+  display: block;
+}
